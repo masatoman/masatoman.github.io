@@ -21,6 +21,7 @@ ul,li,dt,dd {
 }
 img {
     max-width: 100%;
+    vertical-align: bottom;
 }
 
 p {
@@ -65,7 +66,7 @@ p {
 /* block */
 .block h2 {
     font-size: 18px;
-    margin: 20px 0 10px;
+    margin: 30px 0 10px;
     border-bottom: 1px solid rgba(0,0,0,.3);
     box-sizing: border-box;
     display: inline-block;
@@ -102,9 +103,6 @@ p {
     font-size: 24px;
     margin-top: 10px;
 }
-.panel:hover {
-  /* box-shadow: 4px 4px 10px rgba(0,0,0,.5); */
-}
 .tags {
     overflow: hidden;
 }
@@ -134,8 +132,12 @@ p {
 .date {
     font-size: 12px;
 }
-table {
+.table {
     margin: 10px 0;
+    text-align: left;
+}
+.table td {
+    padding-left: 1em;
 }
 
 
@@ -143,9 +145,14 @@ table {
     .nav h1 {
         display: block;
         text-align: center;
+        margin-bottom: 10px;
     }
     .nav ul {
         float: none;
         margin: 0 auto;
+    }
+    .col2 > li {
+        float: none;
+        width: 100%;
     }
 }
