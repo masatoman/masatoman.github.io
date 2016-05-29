@@ -4,15 +4,120 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
+    <meta name="keyword" content="masato, portfolio">
+    <meta name="discription" content="masatoのポートフォリオです">
+    <title>Masato&#039;s Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="jquery.heightLine.js"></script>
+    <script>
+      $(function() {
+        $(".js-height").heightLine({
+          minWidth: 640
+        });
+      })
+    </script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <nav class="nav">
+          <h1>Masato&#039;s Portfolio Website</h1>
+          <ul>
+              <li><a href="#works">works</a></li>
+              <li><a href="#profile">profile</a></li>
+              <!--li><a href="#contact">contact</a></li-->
+          </ul>
+      </nav>
+      <div id="contents">
+          
+          <div id="works" class="block">
+              <h2>works</h2>
+              <ul class="col2">
+                  <li><dl class="panel">
+                          <dt><a href=""><img src="img/thum_01.jpg"></a></dt>
+                          <dd class="js-height">
+                              <ul class="tags">
+                                  <li class="tag--01">html5</li>
+                                  <li class="tag--02">css3</li>
+                                  <li class="tag--03">jquery</li>
+                                  <li class="tag--04">ruby</li>
+                              </ul>
+                              <p class="date">20xx/xx/xx</p>
+                              <h3><a class="panel__title" href="">title</a></h3>
+                              <p class="panel__body">紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です</p>
+                          </dd>
+                  </dl></li>
+                  <li><dl class="panel">
+                          <dt><a href=""><img src="img/thum_02.jpg"></a></dt>
+                          <dd class="js-height">
+                              <ul class="tags">
+                                  <li class="tag--01">html5</li>
+                                  <li class="tag--02">css3</li>
+                                  <li class="tag--03">jquery</li>
+                                  <li class="tag--04">ruby</li>
+                              </ul>
+                              <p class="date">20xx/xx/xx</p>
+                              <h3><a class="panel__title" href="">title</a></h3>
+                              <p class="panel__body">紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です</p>
+                          </dd>
+                  </dl></li>
+                  <li><dl class="panel">
+                          <dt><a href=""><img src="img/thum_03.jpg"></a></dt>
+                          <dd class="js-height">
+                              <ul class="tags">
+                                  <li class="tag--01">html5</li>
+                                  <li class="tag--02">css3</li>
+                                  <li class="tag--03">jquery</li>
+                                  <li class="tag--04">ruby</li>
+                              </ul>
+                              <p class="date">20xx/xx/xx</p>
+                              <h3><a class="panel__title" href="">title</a></h3>
+                              <p class="panel__body">紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です</p>
+                          </dd>
+                  </dl></li>
+                  <li><dl class="panel">
+                          <dt><a href=""><img src="img/thum_04.jpg"></a></dt>
+                          <dd class="js-height">
+                              <ul class="tags">
+                                  <li class="tag--01">html5</li>
+                                  <li class="tag--02">css3</li>
+                                  <li class="tag--03">jquery</li>
+                                  <li class="tag--04">ruby</li>
+                              </ul>
+                              <p class="date">20xx/xx/xx</p>
+                              <h3><a class="panel__title" href="">title</a></h3>
+                              <p class="panel__body">紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です紹介文です</p>
+                          </dd>
+                  </dl></li>
+              </ul>
+          </div><!-- works -->
+          
+          <div id="profile" class="block">
+              <h2>profile</h2>
+              <p>2年間フロントエンドの経験があります。<br>
+              wordpress、eccube,等のスタイル調整や、レスポンシブサイトを作成してきました。<br>
+              今後はrubyを学び動的なサイトを作成していきます。</p>
+              <table class="table">
+                  <tr>
+                      <th>html5</th>
+                      <td>2年</td>
+                  </tr>
+                  <tr>
+                      <th>css3</th>
+                      <td>2年</td>
+                  </tr>
+                  <tr>
+                      <th>jquery</th>
+                      <td>1年以上</td>
+                  </tr>
+                  <tr>
+                      <th>gitHub</th>
+                      <td><a href="https://github.com/masatoman" target="_blank">https://github.com/masatoman</a></td>
+                  </tr>
+              </table>
+          </div>
+          
+      </div><!-- content -->
+    
   </body>
 </html>
