@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/master/.nodebrew/node/v7.2.1/bin/node /Users/master/.nodebrew/current/bin/yarn add hexo
+
+PATH: 
+  /Users/master/.rbenv/shims:/usr/local/bin:/Users/master/bin:/usr/local/bin/npm:/usr/local/lib/node_modules:/Users/master/.rbenv/bin:/Users/master/.vimenv/bin:/Users/master/.tmux/plugins/bin:/Users/master/.tmux/bin:/Users/master/.bin:/usr/local/sbin:/Users/master/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/Cellar/go/1.4.2/libexec/bin:/Users/master/.go/bin
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  7.2.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "masatoman.github.io",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:masatoman/masatoman.github.io.git",
+    "author": "mihara",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)

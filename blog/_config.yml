@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: blog
 subtitle:
 description:
-author: John Doe
-language:
+author: masato ihara
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http:////masatoman.github.io/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -68,7 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-    type: git
-    repo: https://github.com/masatoman/masatoman.github.io
-    branch: master
-    message: [message]
+  type: git
+  repo: https://github.com/masatoman/masatoman.github.io
+  branch: master
+  message: [message]
