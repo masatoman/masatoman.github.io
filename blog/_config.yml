@@ -13,7 +13,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://masatoman.github.io/
-root: /log/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -70,4 +70,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:masatoman/masatoman.github.io.git
-  branch: master
+  branch: blog
