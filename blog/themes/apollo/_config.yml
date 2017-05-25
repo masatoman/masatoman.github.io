@@ -1,0 +1,13 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Miscellaneous
+Google_analytics: UA-99930731-1
+favicon: /favicon.png
