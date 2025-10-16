@@ -1,0 +1,152 @@
+<!DOCTYPE html><html lang="ja"> <head><meta charset="UTF-8"><meta name="description" content="高配当株スクリーナーに分散投資機能を統合。投資総額と銘柄数を入力するだけで、投資スコアに基づいた最適な投資配分を自動計算し、業界分散状況も可視化します。"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.14.5"><title>分散投資機能完成！投資総額と銘柄数を指定するだけで最適な投資配分を自動計算 - 雑記ブログ</title><!-- Google Fonts --><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/blog/_astro/_slug_.ChFdE1GM.css"></head> <body class="bg-gray-50 font-sans"> <!-- ナビゲーションバー --> <nav class="bg-white border-b border-gray-200"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="flex justify-between h-16"> <div class="flex items-center"> <a href="/blog/" class="text-xl font-semibold text-gray-900">
+雑記ブログ
+</a> </div> <div class="flex items-center space-x-8"> <a href="/blog/" class="nav-link">ホーム</a> <a href="/blog/blogs" class="nav-link">ブログ</a> <a href="/blog/investment-results" class="nav-link">投資結果</a> </div> </div> </div> </nav> <main>  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8"> <!-- 記事ヘッダー --> <header class="mb-8"> <h1 class="text-3xl font-bold text-gray-900 mb-4">分散投資機能完成！投資総額と銘柄数を指定するだけで最適な投資配分を自動計算</h1> <div class="flex flex-wrap items-center gap-4 text-sm text-gray-600 mb-4"> <time datetime="2025-10-16T00:00:00.000Z"> 2025/10/16 </time>  <span class="category-badge category-misc"> 機能追加 </span> </div> <div class="flex flex-wrap gap-2 mb-4"> <span class="tag">
+#分散投資 </span><span class="tag">
+#投資配分 </span><span class="tag">
+#高配当株 </span><span class="tag">
+#スクリーニング </span><span class="tag">
+#業界分散 </span> </div> <p class="text-lg text-gray-600 italic">高配当株スクリーナーに分散投資機能を統合。投資総額と銘柄数を入力するだけで、投資スコアに基づいた最適な投資配分を自動計算し、業界分散状況も可視化します。</p> </header> <!-- 記事本文 --> <div class="prose prose-lg max-w-none">  <h1 id="分散投資機能完成投資総額と銘柄数を指定するだけで最適な投資配分を自動計算">分散投資機能完成！投資総額と銘柄数を指定するだけで最適な投資配分を自動計算</h1>
+<p>高配当株スクリーナーに<strong>分散投資機能</strong>を統合しました！これで、投資総額と銘柄数を指定するだけで、投資スコアに基づいた最適な投資配分を自動計算できるようになりました。</p>
+<h2 id="-新機能の概要">🎯 新機能の概要</h2>
+<h3 id="分散投資計算ツール">分散投資計算ツール</h3>
+<ul>
+<li><strong>場所</strong>: HTMLレポート上部の折りたたみ式セクション</li>
+<li><strong>入力項目</strong>:
+<ul>
+<li>投資総額（デフォルト: 10万円）</li>
+<li>投資銘柄数（デフォルト: 10銘柄、最大20銘柄）</li>
+<li>最低投資スコア（デフォルト: 70点）</li>
+<li>配分戦略（等配分、投資スコア加重、配当利回り加重）</li>
+</ul>
+</li>
+</ul>
+<h3 id="投資配分の自動計算">投資配分の自動計算</h3>
+<ol>
+<li><strong>銘柄選択</strong>: 投資スコアが最低スコア以上の銘柄を抽出</li>
+<li><strong>配分計算</strong>: 選択した戦略に基づいて投資金額を配分</li>
+<li><strong>株数計算</strong>: 1株単位での効率的な購入株数を計算</li>
+<li><strong>余剰金再配分</strong>: 余った資金を株価の安い順に1株ずつ追加購入</li>
+</ol>
+<h2 id="-表示される情報">📊 表示される情報</h2>
+<h3 id="メインテーブルへの追加列">メインテーブルへの追加列</h3>
+<ul>
+<li><strong>購入株数</strong>: 各銘柄の購入株数</li>
+<li><strong>投資金額</strong>: 各銘柄への実際の投資金額</li>
+<li><strong>年間配当収入</strong>: 各銘柄からの年間配当収入</li>
+</ul>
+<h3 id="ポートフォリオ配分結果">ポートフォリオ配分結果</h3>
+<ul>
+<li>投資総額 vs 実際投資額</li>
+<li>未投資額</li>
+<li>年間配当収入</li>
+<li>ポートフォリオ利回り（%）</li>
+</ul>
+<h3 id="購入銘柄一覧表">購入銘柄一覧表</h3>
+<ul>
+<li><strong>銘柄コード</strong>: 4桁の銘柄コード</li>
+<li><strong>銘柄名（セクター）</strong>: 銘柄名と業界名を階層表示</li>
+<li><strong>購入株数</strong>: 購入する株数</li>
+<li><strong>投資金額</strong>: 実際の投資金額</li>
+<li><strong>年間配当</strong>: 年間配当収入</li>
+</ul>
+<h3 id="業界分散状況">業界分散状況</h3>
+<ul>
+<li><strong>分散度スコア</strong>: 0-100点（ハーフィンダール指数ベース）</li>
+<li><strong>業界数</strong>: 投資対象の業界数</li>
+<li><strong>各業界の詳細</strong>: 投資割合、銘柄数、投資金額、年間配当収入</li>
+<li><strong>視覚的プログレスバー</strong>: 各業界の投資割合を可視化</li>
+</ul>
+<h2 id="-業界名の日本語翻訳">🌍 業界名の日本語翻訳</h2>
+<p>英語の業界名を日本語に自動翻訳して表示します：</p>
+<ul>
+<li>Industrial Distribution → 産業流通</li>
+<li>Auto Parts → 自動車部品</li>
+<li>Auto &#x26; Truck Dealerships → 自動車販売</li>
+<li>Scientific &#x26; Technical Instruments → 科学技術機器</li>
+<li>Engineering &#x26; Construction → 建設・土木</li>
+<li>Building Products &#x26; Equipment → 建材・設備</li>
+<li>Utilities - Regulated Electric → 電力・ガス</li>
+<li>Staffing &#x26; Employment Services → 人材派遣</li>
+<li>Specialty Business Services → 専門サービス</li>
+<li>Information Technology Services → ITサービス</li>
+<li>Chemicals → 化学</li>
+<li>Telecom Services → 通信サービス</li>
+<li>Consulting Services → コンサルティング</li>
+</ul>
+<h2 id="-使用例">💡 使用例</h2>
+<h3 id="10万円を10銘柄に分散投資する場合">10万円を10銘柄に分散投資する場合</h3>
+<ol>
+<li>投資総額: 100,000円</li>
+<li>投資銘柄数: 10銘柄</li>
+<li>最低投資スコア: 70点</li>
+<li>配分戦略: 投資スコア加重</li>
+</ol>
+<p><strong>結果例</strong>:</p>
+<ul>
+<li>実際投資額: 99,849円（99.8%の効率）</li>
+<li>未投資額: 151円</li>
+<li>年間配当収入: 3,733円</li>
+<li>ポートフォリオ利回り: 3.74%</li>
+<li>分散度スコア: 87.7点（良好）</li>
+<li>投資業界数: 9業界</li>
+</ul>
+<h2 id="-技術的特徴">🔧 技術的特徴</h2>
+<h3 id="1株単位での投資">1株単位での投資</h3>
+<ul>
+<li><strong>SBI証券S株対応</strong>: 1株単位での購入を前提</li>
+<li><strong>効率的な配分</strong>: 余剰金を株価の安い順に1株ずつ再配分</li>
+<li><strong>最小限の未投資</strong>: 投資効率を最大化</li>
+</ul>
+<h3 id="動的計算">動的計算</h3>
+<ul>
+<li><strong>リアルタイム計算</strong>: ブラウザ上で即座に計算・表示更新</li>
+<li><strong>動的列インデックス</strong>: CSV構造変更に対応</li>
+<li><strong>エラーハンドリング</strong>: NaN値対策、計算エラー時の適切な表示</li>
+</ul>
+<h3 id="ユーザビリティ">ユーザビリティ</h3>
+<ul>
+<li><strong>折りたたみ式UI</strong>: 必要な時だけ展開</li>
+<li><strong>ボタン連打防止</strong>: 計算中の適切な状態管理</li>
+<li><strong>レスポンシブ対応</strong>: 小画面での横スクロール対応</li>
+</ul>
+<h2 id="-投資戦略の選択肢">📈 投資戦略の選択肢</h2>
+<h3 id="1-等配分">1. 等配分</h3>
+<p>投資総額を選択銘柄数で均等分割。シンプルで分かりやすい配分方法。</p>
+<h3 id="2-投資スコア加重推奨">2. 投資スコア加重（推奨）</h3>
+<p>各銘柄の投資スコアに比例して配分。高スコア銘柄により多く投資。</p>
+<h3 id="3-配当利回り加重">3. 配当利回り加重</h3>
+<p>各銘柄の配当利回りに比例して配分。配当収入を重視した配分方法。</p>
+<h2 id="-今後の展望">🎉 今後の展望</h2>
+<p>この分散投資機能により、投資判断がより科学的で体系的になりました。今後は以下のような拡張も検討しています：</p>
+<ul>
+<li><strong>追加配分戦略</strong>: リスク調整リターン加重、バリュー投資加重など</li>
+<li><strong>業界制限</strong>: 特定業界の除外・重点配分機能</li>
+<li><strong>期間設定</strong>: 投資期間に応じた配分調整</li>
+<li><strong>リスク指標</strong>: VaR、シャープレシオなどの追加</li>
+<li><strong>エクスポート機能</strong>: 投資計画のCSV/PDF出力</li>
+</ul>
+<h2 id="-使い方">🚀 使い方</h2>
+<ol>
+<li>高配当株スクリーナーを実行</li>
+<li>生成されたHTMLレポートを開く</li>
+<li>「💰 分散投資計算ツール」をクリックして展開</li>
+<li>投資総額、銘柄数、最低投資スコア、配分戦略を設定</li>
+<li>「📊 分散投資を計算」ボタンをクリック</li>
+<li>結果を確認して投資計画を立てる</li>
+</ol>
+<p>分散投資機能により、より効率的で安全な投資判断が可能になりました。ぜひお試しください！</p>
+<hr>
+<p><strong>関連記事</strong>:</p>
+<ul>
+<li><a href="/investment-results">投資結果一覧</a> - 高配当株・ネットネット株の分析結果</li>
+</ul>  </div> <!-- Stripe投げ銭ボタン --> <div class="mt-8"> <div class="bg-gray-50 border border-gray-200 rounded-lg p-6 text-center"> <h3 class="text-lg font-semibold text-gray-900 mb-2">この記事が役に立ちましたか？</h3> <p class="text-gray-600 mb-4">コーヒー1杯分の投げ銭で、より良いコンテンツの作成をサポートしてください！</p> <a href="https://buy.stripe.com/test_1234567890" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors">
+☕️ 投げ銭する（500円）
+</a> <p class="text-sm text-gray-500 mt-2">Stripe経由で安全にお支払いいただけます</p> </div> </div> <!-- 記事フッター --> <footer class="mt-8 pt-6 border-t border-gray-200"> <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4"> <div> <p class="text-sm text-gray-600">
+この記事が役に立ちましたか？
+</p> </div> <div class="flex gap-4"> <a href="/blog-monakit/blogs" class="text-blue-600 hover:text-blue-800 font-medium">
+← 他の記事を見る
+</a> </div> </div> </footer> </article>  </main> <footer class="bg-gray-50 border-t border-gray-200 py-8 mt-12"> <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> <div class="text-center"> <p class="text-gray-600 mb-4">雑記ブログ</p> <div class="flex justify-center space-x-6"> <a href="/blog/rss.xml" class="text-gray-500 hover:text-gray-700">
+RSS
+</a> <a href="https://github.com" class="text-gray-500 hover:text-gray-700">
+GitHub
+</a> </div> <div class="mt-4 pt-4 border-t border-gray-200"> <p class="text-gray-500 text-sm">&copy; 2024 雑記ブログ. All rights reserved.</p> </div> </div> </div> </footer> </body></html>
